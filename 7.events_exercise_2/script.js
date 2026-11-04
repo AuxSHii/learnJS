@@ -1,6 +1,8 @@
 /*
   custom button in place of default input btn   
+   exercise for rplacing custom button with default input btn in html
 
+   
  */
 
 let btn = document.querySelector("#btn");
