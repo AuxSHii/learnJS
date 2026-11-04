@@ -1,0 +1,78 @@
+
+
+/* Whole Body Dark Mode Styling */
+body {
+  /* Layout & Sizing */
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+  /* Black Background & White Text */
+  background-color: #000000;  /* Solid Black */
+  color: #ffffff;             /* Solid White */
+  
+  /* Typography */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  
+  /* Smooth Text Rendering on Dark Backgrounds */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Ensures links are readable against the black background */
+a {
+  color: #38bdf8; /* Light sky blue link */
+}
+a:visited {
+  color: #a855f7; /* Light purple for visited links */
+}
+/* CUSTOM CSS */
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ } 
+
+.card {
+  margin-top: 40px;
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 20px;
+  border:  2px Solid #555;
+  max-width: 300px;
+  color: #fff;
+
+}
+
+.profile {
+   width: 50px;
+   height: 50px;
+   background-color: #FFBF00;
+   border-radius: 50%;
+   margin-bottom: 7px;
+   max-width: 10px;
+
+   
+}
+
+.card h4 {
+  margin-top: 3px;
+
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.card h3 {
+  margin-top: 60px;
+}
+
+.pic {
+  max-width: 100px
+}
